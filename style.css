@@ -1,0 +1,243 @@
+body {
+    height: auto;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(248, 240, 255, 1) 0%, rgba(173, 210, 230, 1) 52%, rgba(135, 206, 235, 1) 100%);
+
+}
+
+
+.gee{
+    margin-top: 4%;
+    margin-left: 10%;
+
+    
+}
+
+.gee img{
+    width: 10%;
+}
+
+
+.images {
+    margin-top: 10%;
+    margin-left: 13%;
+
+}
+
+.lady img{
+    height: 48vh;
+    width: 28%;
+    border-radius: 50% ;
+}
+
+.sam{
+    margin-left: 17%; 
+    gap: 20%;
+    position: absolute;
+    background-color: rgb(185, 169, 169);
+    height: 100px;
+    width: 9%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sam h2{
+    margin-top: -1px;
+   
+    position: relative; 
+}
+.flag, .euro {
+    display: flex;
+}
+.flag img{
+    height: 20px;
+    border-radius: 50% ;
+}
+.flag h2{
+    left: 20px;
+    font-size: 14px;
+}
+
+ .euro img{
+    height: 16px;
+    border-radius: 50% ;
+}
+
+.euro h2{
+    left: 35px;
+}
+
+
+
+
+
+/* Style the checkbox */
+.check input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    background-color: green; 
+    
+}
+
+
+/* Add a green checkmark when the checkbox is checked */
+.check [type="checkbox"]:checked::after {
+    content: "✔"; 
+    color: white; 
+    font-size: 13px; 
+    position: absolute;
+    top: 2px;
+    left: 5px; 
+}
+
+
+.new {
+    margin-top: 8%;
+    display: flex;
+    font-size: 16px;
+}
+
+.new a{
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+    color:  rgb(32, 71, 199);
+    font-size: 20px;
+}
+
+/* Hide the label by default */
+.sam label {
+    display: none;
+    margin-left: 25px;
+    font-weight: 500;
+    position: static;
+    color: green;
+}
+
+/* Show the label when the checkbox is checked */
+input[type="checkbox"]:checked + label {
+    display: inline-block; 
+    font-weight: bold;
+}
+
+
+.peo{
+    top: -57px;
+    left: 38px;
+    position: relative;
+    background-color: rgb(185, 169, 169);
+    height: 60px;
+    width: 22%;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.sas{
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+}
+.sas img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+}
+
+
+.ses{
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+    margin-left: 32px;
+    margin-top: -12px;
+}
+.ses img {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+}
+
+.sign{
+    top:  140px;
+    left: 55%;
+    position: absolute;
+    background-color: rgb(176, 217, 233);
+    height: 600px;
+    width: 28%;
+    border-radius: 2%;
+}
+
+
+.now{
+    margin-left: 12%;
+}
+
+h2{
+    margin-top: 10%;
+}
+
+form {
+    margin-top: 5%;
+}
+
+
+ form label {
+    padding-top: 2%;
+    position: absolute;
+    font-size: 20px;
+    
+ }
+form input[type="email"],
+form input[type="password"] {
+    width: 90%; /* Adjust the width as needed */
+    padding: 20px;
+    margin-top: 9%;
+    border: 1px solid rgb(32, 71, 199); /* Light gray border */
+    border-radius: 18px; /* Slightly rounded corners */
+    outline: none;
+    font-size: 16px; /* Adjust font size */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border-color: #4B0082; /* Indigo border on focus */
+    box-shadow: 0px 0px 5px rgba(75, 0, 130, 0.5); /* Slight shadow effect */
+}
+
+
+.signin {
+    margin-top: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.signin a{
+    text-decoration: none;
+    color:  rgb(32, 71, 199);
+}
+
+.signin button {
+    background-color: rgb(32, 71, 199);
+    border: none; /* Remove border for a cleaner look */
+    color: white; /* Button text color */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 20px; /* Increase border-radius for a rounded effect */
+    height: 40px;
+    width: 60%;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.signin button:hover {
+    background-color: rgb(30, 0, 139); /* Darken color on hover */
+}
+
